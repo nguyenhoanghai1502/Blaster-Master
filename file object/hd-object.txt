@@ -1,0 +1,31 @@
+vị trí dòng = số trong file ảnh
+dấu ( - ) phạm vi xét object
+
+Công thức Object.txt :
+
+- số đầu là type obj
+brick=1(đá ko phá đc)
+chalk=2(đá phá đc)
+
+
+- số thứ 2 là time delay
+
+
+- 4 số tiếp theo là left top width height :
+left, right, top, bottom tất cả cộng thêm 1
+	width = right - left
+	height = bottom - top
+
+- 4 số 0 : là left,top,right,bottom của cái vùng tương tác nhưng chỉ xài ở vài đối tượng, ai k xài thì cho = 0. Vùng tương tác là khi nv di chuyển chạm tới vùng thì quái sẽ tấn công
+	+ Xét theo Left top right bottom ( kiểu Rectangle )
+
+- Mấy số sau là để lấy tọa độ nó ở trong map ( theo cột và hàng )
+	+ cột bắt đầu = left/tile_size
+	+ cột kết thức = right/tile_size
+	+ hằng bắt đầu = top/tile_size
+	+ hàng kết thúc = bottom/ tile_size
+
+Nếu chia ra số lẻ vd : 6.932 thì lấy 6, 5.35 thì lấy 5
+
+Ví dụ object nằm ở 3 cột (có giá trị 1 2 3)  và 2 hàng ( có giá trị  8 9)  : 1 8 2 8 3 8 1 9 2 9 3 9
+
