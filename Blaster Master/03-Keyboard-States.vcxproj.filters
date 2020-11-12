@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Enemy">
+      <UniqueIdentifier>{791ed33f-7f2f-4ba4-8366-c2d4f8ba1907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy\Enemy Header">
+      <UniqueIdentifier>{98105e50-f369-45b4-841b-419417743299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy\Enemy Source">
+      <UniqueIdentifier>{d83d0522-8d73-4a58-a19b-56ee83a90931}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SOPHIA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Activity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jason.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TileSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jumper.cpp">
+      <Filter>Enemy\Enemy Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Gunner.cpp">
+      <Filter>Enemy\Enemy Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Worm.cpp">
+      <Filter>Enemy\Enemy Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Floaters.cpp">
+      <Filter>Enemy\Enemy Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Domes.cpp">
+      <Filter>Enemy\Enemy Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Insect.cpp">
+      <Filter>Enemy\Enemy Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Skulls.cpp">
+      <Filter>Enemy\Enemy Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Orbs.cpp">
+      <Filter>Enemy\Enemy Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumConstant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SOPHIA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Activity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Jason.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TileSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Jumper.h">
+      <Filter>Enemy\Enemy Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Gunner.h">
+      <Filter>Enemy\Enemy Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Worm.h">
+      <Filter>Enemy\Enemy Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Floaters.h">
+      <Filter>Enemy\Enemy Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Domes.h">
+      <Filter>Enemy\Enemy Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Insect.h">
+      <Filter>Enemy\Enemy Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Skulls.h">
+      <Filter>Enemy\Enemy Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Orbs.h">
+      <Filter>Enemy\Enemy Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
